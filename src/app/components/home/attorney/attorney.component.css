@@ -1,0 +1,78 @@
+.Task_attorney{
+  width: 75vw;
+  margin: auto;
+  text-align: center;
+  padding: 5vh 0vh;
+}
+.Task_attorney--title{
+  width: 40vw;
+  font-size: 1.2vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  font-family: "Cormorant Garamond", serif;
+}
+.Task_attorney--title img{
+  width: 8vw;
+  margin: auto;
+}
+.Task_attorney--perfiles{
+  display: flex;
+  width: 75vw;
+  margin: auto;
+  height: 110vh;
+}
+.Task_attorney--perfil{
+  width: 20vw;
+  height: 75vh;
+  margin: auto;
+  position: relative;
+}
+.Task_attorney--perfil img{
+  width: 100%;
+}
+.Task_attorney--perfil-redes{
+  width: 10vw;
+  position: absolute;
+  bottom: 2vw;
+  left: 25%;
+  background: #FFF;
+  padding: 15px 5px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2vw;
+}
+.Task_attorney--perfil-redes p{
+  color: #D1B06B;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+.Task_attorney--perfil-redes img{
+  width: 1.3vw;
+  margin-right: 0.5vw;
+}
+.Task_attorney--perfil-linea{
+  width: 6vw;
+  margin: auto;
+}
+.Task_attorney--perfil-linea img{
+  width: 100%;
+}
+.Task_attorney--perfil-redes-nombre{
+  position: relative;
+  top: 0.5vw;
+}
+.Task_attorney--btn{
+  position: relative;
+  bottom: 3vw;
+}
+.Task_attorney--btn button{
+  width: 15vw;
+  height: 5vw;
+  color: #1F2732;
+  font-family: Outfit;
+  font-size: 1.3vw;
+  background: #fff;
+  border: 0.1vh solid black;
+  cursor: pointer;
+}

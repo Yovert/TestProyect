@@ -1,0 +1,97 @@
+.Tarea__explore{
+  background: #161D27;
+  color: #fff;
+  height: 150vh;
+}
+.Tarea__explore h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5vw;
+}
+.Tarea__explore p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.3vw;
+}
+.encabezado__explore{
+  display: flex;
+  width: 75vw;
+  margin: auto;
+  padding: 20vh 0vh 10vh 0vh;
+  justify-content: space-between;
+}
+.encabezado__explore h2{
+  font-size: 2vw;
+}
+.Tarea__explore--info{
+  width: 40vw;
+}
+.Tarea__explore--info strong{
+  color: #D1B06B;
+}
+.Tarea__explore--bloques{
+  width: 78vw;
+  max-width: max-content;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1.8vw;
+  gap: 1vw;
+}
+.Tarea__explore--title{
+  display: flex;
+  width: 27vw;
+  flex-direction: column;
+  gap: 1vw;
+  border-right: 0.1vh solid gray;
+}
+.Tarea__explore--title img{
+  width: 7vw;
+}
+.Tarea__explore--bloques_style{
+  width: 25vw;
+  height: 20vw;
+  padding: 1.8vw ;
+  background: #1F2732;
+}
+.Tarea__explore--bloques_title{
+  margin: auto;
+  width: 90%;
+}
+.Tarea__explore--bloques_info{
+  padding: 0.5vw ;
+  width: 90%;
+  margin: auto;
+  border-bottom: 0.1vh solid gray;
+}
+
+.Tarea__explore--bloques_btn{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2vw 0vw;
+}
+.Tarea__explore--bloques_btn button:hover{
+  cursor: pointer;
+  background: #D1B06B;
+}
+.Tarea__explore--bloques_btn img{
+  width: 3.5vw;
+}
+.Tarea__explore--bloques_btn button{
+  width: 9vw;
+  height: 6vh;
+  font-family: 'Outfit', sans-serif;
+  background: #161D27;
+  color: #fff;
+  border: none;
+  font-size: 1vw;
+}
+.btn_explore--color button{
+  background: #D1B06B;
+  color: black;
+}
+.btn_explore--color button:hover{
+  color: #fff;
+  background: #161D27;
+}

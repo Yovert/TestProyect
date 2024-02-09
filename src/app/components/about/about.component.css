@@ -1,0 +1,98 @@
+.tasks
+{
+  background: #1F2732;
+  height: 110vw;
+}
+.image_attorney img{
+  width: 30vw;
+
+}
+.container{
+  display: flex;
+  color: #FFF;
+  width: 82vw;
+  margin: auto;
+  gap: 5vw;
+}
+.content{
+  position: relative;
+  top:22vw;
+}
+.border_backg{
+  border: 0.1vh solid #4E555F;
+}
+.image_attorney{
+  position: relative;
+  top: 2vw;
+  left: 3vw;
+}
+.content_info{
+  height: 29vw;
+  display: grid;
+  margin: auto;
+}
+.content_info img{
+  width: 7vw;
+}
+.content_info h1{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3vw;
+}
+.content_info p{
+  font-family: "Outfit", sans-serif;
+  font-size: 1.1vw;
+}
+.follow{
+  display: flex;
+  gap: 1vw;
+}
+.follow img{
+  width: 1.2vw;
+  height: 1.2vw;
+}
+.content_info button{
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2vw;
+  width: 15vw;
+  height: 4vw;
+  cursor: pointer;
+  border: none;
+}
+/* ------------------ */
+
+.story{
+  width: 82vw;
+  margin: auto;
+  padding: 4vw 0vw;
+}
+.content_story{
+  width: 45vw;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+  padding: 2vw 0vw;
+}
+.content_story h2{
+  font-size: 2vw;
+  font-family: "Cormorant Garamond", serif;
+}
+.content_story p{
+  font-size: 1.1vw;
+  font-family: "Outfit", sans-serif;
+}
+.content_story img{
+  width: 7vw;
+}
+.images_story{
+  width: 82vw;
+  margin: auto;
+  display: flex;
+  gap: 2vw;
+  padding: 2vw 0vw;
+}
+.images_story img{
+  width: 25vw;
+}

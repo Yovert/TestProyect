@@ -1,0 +1,70 @@
+.Task_expert{
+  display: flex;
+  align-items: center;
+  background: #1F2732;
+  color: #fff;
+  padding: 10vh;
+}
+.Task_expert--bloque{
+  width: 75vw;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  gap: 2vw;
+}
+.Task_expert--title{
+  width: 24vw;
+  padding:2vw 0vw;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2vw;
+}
+.Task_expert--info{
+  color: #D7D7D7;
+  font-size: 1.1vw;
+  padding-bottom: 2vw;
+  width: 30vw;
+}
+.Task_expert--consulta-info{
+  color: #909090;
+  font-size: 1.2vw;
+  padding: 2vw 0vw;
+
+}
+.Task_expert--btn button{
+  background: #D1B06B;
+  font-family: Outfit;
+  width: 15vw;
+  height: 10vh;
+  font-size: 1.2vw;
+  border: none;
+  cursor: pointer;
+}
+.Task_expert--consulta{
+  height: 23vw;
+  width: 34vw;
+  background: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.Task_expert--consulta_marco{
+  border: 2vh solid #DFDFDF;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  padding: 1.2vw;
+}
+.Task_expert--consulta-title{
+  font-size: 1.5vw;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+}
+.Task_expert--consulta-contacto{
+  display: flex;
+  align-items: end;
+  gap: 1vw;
+  font-size: 1.2vw;
+}
+.Task_expert--consulta-contacto img{
+  width: 3.5vw;
+}

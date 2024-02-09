@@ -1,0 +1,33 @@
+main{
+  height: 20vw;
+  display: grid;
+}
+.meet{
+  width: 75vw;
+  height: 17vw;
+  margin: auto;
+  display: grid;
+}
+.task__trouble--title_meet{
+  display: flex;
+  width: 32vw;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  font-size: 1.3vw;
+}
+.task__trouble--title_meet img{
+  width: 7vw;
+  height: 3.5vw;
+}
+.task__trouble--guias{
+  width: 55vw;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.task__trouble--guias img{
+ width: 8vw;
+}

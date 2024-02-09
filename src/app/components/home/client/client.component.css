@@ -1,0 +1,83 @@
+.Tarea__client{
+  background: #1F2732;
+  height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+h3, h2{
+  font-size: 1.5vw;
+  font-family: "Cormorant Garamond", serif;
+}
+p{
+  font-family: Outfit;
+}
+.Tarea__client--title img{
+  width: 7vw;
+}
+.Tarea__client--bloque{
+  position: relative;
+  top: 20vh;
+  width: 75vw;
+  margin: auto;
+}
+.Tarea__client--usuario{
+  width: 40vh;
+  height: 55vh;
+}
+.Tarea__client--bloque-usuarios{
+  display: flex;
+  position: relative;
+  width: max-content;
+  margin: auto;
+  top: 5vh;
+}
+.Tarea__client--usuario-info_fondo{
+  background: #2E3947;
+  height: 17vw;
+  width: 17vw;
+  padding: 2vw;
+  border-radius: 0.4vh 0.4vh 0.4vh 3vw;
+}
+.Tarea__client--usuario-info{
+  margin: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.Tarea__client--usuario-info img{
+  width: 2vw;
+  height: 1.5vw;
+}
+.Tarea__client--usuario-info p{
+  font-size: 1.1vw;
+}
+.Tarea__client--usuario-imagen{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 1vw;
+}
+.Tarea__Client-revers{
+  top: 0;
+}
+.Tarea__Client-revers--fondo{
+  position: relative;
+  top: 1.5vw;
+  border-radius: 3vw 0.2vw 0.2vw 0.2vw;
+}
+.Tarea__client--usuario-imagen img{
+  border-radius: 50%;
+  width: 5vw;
+}
+.Tarea__client--usuario-nombre p{
+  font-size: 1vw;
+}
+.Tarea__client--usuario-imagen{
+  display: flex;
+  gap: 1vw;
+  text-align: left;
+}

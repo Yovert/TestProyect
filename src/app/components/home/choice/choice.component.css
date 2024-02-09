@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,300;1,400;1,700&family=Epilogue:wght@500;700&family=Luxurious+Script&family=Outfit:wght@300;400;600&display=swap');
+
+.Tarea__choice{
+  background: #1F2732;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.Tarea__choice-img{
+  display: grid;
+}
+.Tarea__choice-img img{
+  width:25vw;
+  padding: 1.5vw 0vw;
+}
+.Tarea__choice-contenido{
+  padding: 0vw 2vw;
+  height: 85vh;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+.Tarea__choice-title{
+  padding: 2vw 0vw;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4vw;
+}
+.Tarea__choice-title img{
+  width: 7vw;
+}
+.Tarea__choice-final{
+  display: flex;
+  gap: 1vw;
+  font-size: 1.2vw;
+}
+.Tarea__choice-info{
+  font-size: 1.2vw;
+}
+.Tarea__choice-usuario{
+  display: flex;
+  align-items: center;
+  padding: 2.5vw 0vw;
+  display: flex;
+  gap: 1vw;
+}
+.Tarea__choice-imagen_usuario{
+  background: #161D27;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  padding: 0.5vw;
+  overflow: hidden;
+}
+.Tarea__choice-imagen_usuario img{
+  width: 6.3vw;
+}
+.Tarea__choice-nombre_usuario{
+  font-family: "Luxurious Script", cursive;
+  font-size: 2.5vw;
+}
+.Tarea__choice-case{
+  display: flex;
+  width: 18vw;
+  height: 12vh;
+  align-items: center;
+  padding: 0vw 4vw;
+  background: #3B434E;
+  gap: 1vw;
+}
+.Tarea__choice-final img{
+  width: 5vw;
+  height: 4vw;
+}
+.Tarea__choice-years{
+  display: flex;
+  width: 18vw;
+  height: 12vh;
+  align-items: center;
+  background: #D1B06B;
+  padding: 0vw 4vw;
+  color: black;
+  gap: 1vw;
+}
+.Tarea__choice-years img{
+  width: 5vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+}

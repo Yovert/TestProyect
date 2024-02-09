@@ -1,0 +1,41 @@
+p{
+  font-size: 1vw;
+  font-family: Outfit;
+}
+h2{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2vw;
+}
+.tasks{
+  background: #1F2732;
+  color: #FFF;
+  height: 70vw;
+  display: grid;
+}
+.container{
+  display: flex;
+  width: 65vw;
+  justify-content: space-between;
+  margin: auto;
+}
+.title{
+  display: grid;
+  height: 15vw;
+}
+.title img{
+  width: 7vw;
+}
+
+.container__info{
+  display: grid;
+  gap: 1vw;
+}
+.content_info{
+  background: #2E3642;
+  height: 14vw;
+  padding: 1.5vw 2vw;
+  display: grid;
+}
+.content_info img{
+  width: 3vw;
+}

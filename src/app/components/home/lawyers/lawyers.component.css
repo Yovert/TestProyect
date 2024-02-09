@@ -1,0 +1,114 @@
+.Tarea__lawyers{
+  width: 100%;
+  height: 120vh;
+  background-image: url(../../../../assets/imagesHome/fondomazo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.Tarea__lawyers--bloque{
+  display: flex;
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  padding: 5vw 2vw;
+  font-family: 'Outfit', sans-serif;
+  background: rgba(31, 39, 50, 0.85);
+}
+.Tarea__lawyers--historia{
+  width: 90vw;
+}
+.Tarea__lawyers--historia p{
+  font-size: 1vw;
+  color: #D7D7D7;
+}
+.Tarea__lawyers--historia-title{
+  font-size: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.Tarea__lawyers--historia-title img{
+  width: 7vw;
+}
+.Tarea__lawyers h2{
+  font-family: 'Cormorant Garamond', serif;
+}
+.Tarea__lawyers--historia--opening{
+  padding: 1vw 0vw;
+}
+.Tarea__lawyers--historia--opening h4{
+  color: #D1B06B;
+  padding: 0.5vw 0vw;
+  font-size: 1.2vw;
+}
+.Tarea__lawyers--imagen{
+  height: 80vh;
+}
+.Tarea__lawyers--experienced{
+  padding-left:3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3vw;
+}
+.Tarea__lawyers--experienced--info{
+  font-size: 1vw;
+  color: #D7D7D7;
+}
+.Tarea__lawyers--experienced--title{
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  font-size: 1.2vw;
+}
+.Tarea__lawyers--experienced--title img{
+  width: 7vw;
+}
+.Tarea__lawyers--experienced--pocent-espacio{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Tarea__lawyers--experienced--pocent{
+  font-size: 1.2vw;
+}
+
+.Tarea__lawyers--experienced--btn button{
+  background: #D1B06B;
+  font-family: Outfit;
+  width: 15vw;
+  height: 10vh;
+  font-size: 1.2vw;
+  border: none;
+  cursor: pointer;
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0.3vw;
+  background: linear-gradient(to right, #D1B06B, #D1B06B); /*Colores input */
+  border-radius: 0.5vw;
+  outline: none;
+  opacity: 1.5;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.2vw;
+  height: 1.2vw;
+  background: #D1B06B; /* Color del pulgar del slider */
+  border-radius: 50%;
+  cursor: pointer;
+}

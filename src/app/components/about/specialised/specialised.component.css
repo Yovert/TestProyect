@@ -1,0 +1,68 @@
+p{
+  font-size: 1.2vw;
+  font-family: Outfit;
+  color: #1F2732;
+}
+h2{
+  font-family: "Cormorant Garamond", serif;
+  color: #1F2732;
+  font-size: 2vw;
+}
+main{
+  display: flex;
+  background: #D1B06B;
+  gap: 5vw;
+  height: 34vw;
+}
+image{
+  border: 1px solid black;
+  overflow: hidden;
+}
+.image img{
+  width: 40vw;
+  height: 100%;
+}
+.content_info{
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  padding: 3vw 0vw;
+}
+.content_info--title img{
+  width: 7vw;
+}
+
+.Task__porcent-espacio{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Task__porcent{
+  font-size: 1.2vw;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0.3vw;
+  background: linear-gradient(to right, #1F2732, #1F2732, #fff); /*Colores input */
+  border-radius: 0.5vw;
+  outline: none;
+  opacity: 1.5;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.2vw;
+  height: 1.2vw;
+  background: #1F2732; /* Color del pulgar del slider */
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,129 @@
+.Tarea__trouble{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20vh;
+}
+.Tarea__trouble h2 {
+  font-family: 'Cormorant Garamond', serif ;
+}
+.Tarea__trouble h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.9vw;
+}
+.Tarea__trouble p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2vw;
+}
+.Tarea__trouble--title{
+  width: 15vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  font-size: 1.2vw;
+}
+.Tarea__trouble--title img{
+  width: 7vw;
+  margin: auto;
+}
+.Tarea__trouble--info{
+  color: #909090;
+  width: 42vw;
+  padding: 6vh 0vh;
+  margin: auto;
+  font-size: 1.2vw;
+}
+.Tarea__trouble--notifi{
+  display: flex;
+  width: 70vw;
+  align-items: center;
+  padding: 0.5vw;
+  gap: 2vw;
+}
+.Tarea__trouble--notifi_trusted{
+  display: flex;
+  width: 32%;
+  height: 8vw;
+  align-items: center;
+  background: #d7d7d749;
+  gap: 1vw;
+  padding: 0vh 1vh;
+}
+.Tarea__trouble--notifi_trusted--bucle{
+  position: relative;
+}
+.Tarea__trouble--notifi_trusted--bucle img{
+  width: 5.5vw;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon{
+  position: absolute;
+  top: 1.6vw;
+  left: 1.6vw;
+}
+.estrella{
+  top: 1.5vw;
+  left: 1.9vw;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon p{
+  font-weight: 600;
+  font-size: 1vw;
+}
+.Tarea__trouble--notifi_trusted--bucle-corazon img{
+  width: 1.4vw;
+}
+.Tarea__trouble--notifi_trusted--info{
+  width: 70%;
+  height: 4vw;
+  display: grid;
+  text-align: left;
+}
+.Tarea__trouble--notifi-imagen img{
+  width: 100%;
+  height: 7.8vw;
+}
+
+.Tarea__trouble--notifi-imagen{
+  width: 20vw;
+  height: 8vw;
+  position: relative;
+}
+.Tarea__trouble--notifi-imagen--info{
+  position: absolute;
+  top: 1.5vw;
+  color: #fff;
+  width: 10vw;
+  text-align: left;
+  left: 2vw;
+}
+.Tarea__trouble--notifi-imagen--info h3{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+.Tarea__trouble--title_meet{
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  font-size: 1.3vw;
+}
+.Tarea__trouble--title_meet img{
+  width: 7vw;
+  height: 3.5vw;
+}
+.Tarea__trouble--guias{
+  position: relative;
+  top: 15vh;
+  width: 55vw;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.Tarea__trouble--guias img{
+ width: 8vw;
+}

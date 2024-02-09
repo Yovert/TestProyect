@@ -1,0 +1,113 @@
+footer{
+  background: #1F2732;
+  height: 40vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #FFFF;
+}
+h3{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5vw;
+}
+
+.tasks{
+  width: 70vw;
+  height: 30vw;
+  margin: auto;
+  padding: 2vw;
+}
+.title{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin: auto;
+  width: 60vw;
+}
+.title img{
+  width: 18.7vw;
+  height: 2vw;
+}
+.title_logo{
+  display: flex;
+  font-size: 1.7vw;
+  font-family: "Cormorant Garamond", serif;
+  align-items: center;
+}
+.title_logo img{
+  width: 3vw;
+  height: 4vw;
+}
+.content_info--text a{
+  text-decoration: none;
+  font-size: 1.1vw;
+  color: #D7D7D7;
+  font-family: Outfit;
+  display: grid;
+}
+.content_info--text a:hover{
+  color: #D1B06B;
+}
+.content_info--text{
+  display: grid;
+  gap: 0.5vw;
+  color: #D7D7D7;
+  font-family: Outfit;
+  font-size: 1.1vw;
+}
+.content{
+  display: flex;
+  margin: auto;
+  width: 60vw;
+  padding: 2vw 0vw;
+  gap: 3vw;
+}
+.content_info--title{
+  height: 3.5vw;
+  width: 12vw;
+  display: grid;
+  align-items: center;
+  border-top:0.3vh solid #3A4553;
+  border-bottom:0.3vh solid #3A4553;
+}
+.center{
+  width: 9vw;
+}
+.large{
+width: 17.5vw;
+}
+.content_info
+{
+  display: grid;
+  gap: 1vw;
+}
+.follow{
+  display: flex;
+  margin: auto;
+  width: 60vw;
+  justify-content: space-between;
+  height: 4vw;
+  align-items: center;
+  border-top:0.3vh solid #3A4553;
+  border-bottom:0.3vh solid #3A4553;
+}
+.follow_info{
+  font-size: 1vw;
+  color: #D7D7D7;
+  font-family: Outfit;
+}
+.follow_info span{
+  color: #D1B06B;
+}
+.follow_images{
+  display: flex;
+  gap: 1vw;
+}
+.follow_images p{
+  font-size: 1vw;
+  color: #D1B06B;
+  font-family: Outfit;
+}
+.follow_images img{
+  width: 1.7vw;
+}
