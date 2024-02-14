@@ -1,0 +1,44 @@
+main
+{
+  background: #1f2732;
+  height: 60vw;
+  display: grid;
+}
+.container{
+  width: 50vw;
+  height: 54vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1vw;
+  padding-top: 10vw;
+}
+.container h1{
+  color: #D1B06B;
+  font-family: outfit;
+  font-weight: bold;
+  font-size: 20vw;
+}
+.container img{
+  width: 7vw;
+}
+.container h2{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2vw;
+  color: #FFF;
+}
+.container p{
+  color: #FFF;
+  font-family: outfit;
+}
+.container button{
+  width: 15vw;
+  height: 4vw;
+  font-family: outfit;
+  font-size: 1.2vw;
+  background: #D1B06B;
+  border: none;
+  cursor: pointer;
+}
